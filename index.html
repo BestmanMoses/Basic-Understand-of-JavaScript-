@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript overviewd</title>
+    <style>
+        .border {
+          background-color: rgb(151, 117, 22);      
+        }
+    </style>
+</head>
+<body>
+    <div onclick="changeColor(this)" class="border">
+        Click to change my color!
+    </div>
+
+    <script>
+        function changeColor(element)
+        {
+        var currentColor = element.style.backgroundColor;
+        if (currentColor == "rgb(151, 117, 22)" ) 
+        { element.style.backgroundColor = "rgb(113, 345, 11"   }
+        else { element.style.backgroundColor = " rgb(151, 117, 22)"}
+        }
+    </script>
+</body>
+</html>
